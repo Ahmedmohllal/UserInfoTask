@@ -1,6 +1,5 @@
 package com.assessment.albumsassessment.viewmodel
 
-import android.util.Log
 import com.assessment.albumsassessment.core.BaseViewModel
 import com.assessment.albumsassessment.core.wrapper.StateLiveData
 import com.assessment.domain.model.album.AlbumsInfo

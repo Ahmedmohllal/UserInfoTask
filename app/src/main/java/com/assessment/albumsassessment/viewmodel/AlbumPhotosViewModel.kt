@@ -1,10 +1,8 @@
 package com.assessment.albumsassessment.viewmodel
 
-import android.util.Log
 import com.assessment.albumsassessment.core.BaseViewModel
 import com.assessment.albumsassessment.core.wrapper.StateLiveData
 import com.assessment.domain.model.photo.PhotosItem
-import com.assessment.domain.model.user.UserInfo
 import com.assessment.domain.usecase.GetAlbumPhotosUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import io.reactivex.android.schedulers.AndroidSchedulers

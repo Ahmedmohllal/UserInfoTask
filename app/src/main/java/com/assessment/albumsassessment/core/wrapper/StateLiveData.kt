@@ -9,7 +9,6 @@ class StateLiveData<T> : MutableLiveData<DataStatus<T>?>() {
     }
 
     fun postSuccess(data: T) {
-        //value =
         postValue(DataStatus<T>().success(data))
     }
 
